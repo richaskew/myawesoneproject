@@ -22,7 +22,7 @@ def haversine_distance(coord1, coord2):
     distance = earth_radius * c
     return distance * 1000
 
-def find_closest_defib(user_location, defib_data, search_radius=None):
+def find_closest_defib(user_location, defib_data, search_radius):
     closest_distance = float('inf')
     closest_defib_location = None
 
